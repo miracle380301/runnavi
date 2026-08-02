@@ -1,0 +1,23 @@
+{
+  "region": "jp-tokyo",
+  "updated": "2026-08-02",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "courses": [
+    {
+      "id": "jp-tokyo-kokyo-01",
+      "name": "皇居ラン 1周 5K",
+      "lat": 35.677172,
+      "lon": 139.751615,
+      "km": 5.06,
+      "shape": "loop",
+      "start": "桜田門",
+      "crossings": 0,
+      "crossingsVerified": false,
+      "surface": "asphalt",
+      "city": "東京 千代田区",
+      "source": "verified",
+      "note": "皇居を一周する定番コース。信号なし、常に反時計回りで走るのがマナー。",
+      "gpx": "gpx/jp-tokyo-kokyo-01.gpx"
+    }
+  ]
+}

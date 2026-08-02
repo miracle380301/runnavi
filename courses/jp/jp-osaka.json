@@ -1,0 +1,23 @@
+{
+  "region": "jp-osaka",
+  "updated": "2026-08-02",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "courses": [
+    {
+      "id": "jp-osaka-osakajo-01",
+      "name": "大阪城公園 1周 4.5K",
+      "lat": 34.683904,
+      "lon": 135.522366,
+      "km": 4.45,
+      "shape": "loop",
+      "start": "大手門",
+      "crossings": 0,
+      "crossingsVerified": false,
+      "surface": "asphalt",
+      "city": "大阪 中央区",
+      "source": "verified",
+      "note": "大阪城公園の外周コース。木陰が多く、ランナーが常にいる。",
+      "gpx": "gpx/jp-osaka-osakajo-01.gpx"
+    }
+  ]
+}

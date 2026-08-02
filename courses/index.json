@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02",
+  "updated": "2026-08-02b",
   "attribution": "© OpenStreetMap contributors (ODbL)",
   "regions": [
     {
@@ -10,6 +10,24 @@
       "radiusKm": 12,
       "count": 2,
       "file": "kr/kr-seoul-north.json"
+    },
+    {
+      "id": "jp-tokyo",
+      "name": "東京",
+      "lat": 35.6772,
+      "lon": 139.7516,
+      "radiusKm": 15,
+      "count": 1,
+      "file": "jp/jp-tokyo.json"
+    },
+    {
+      "id": "jp-osaka",
+      "name": "大阪",
+      "lat": 34.6839,
+      "lon": 135.5224,
+      "radiusKm": 15,
+      "count": 1,
+      "file": "jp/jp-osaka.json"
     }
   ]
 }
