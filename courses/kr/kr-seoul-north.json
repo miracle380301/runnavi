@@ -1,0 +1,70 @@
+{
+  "region": "kr-seoul-north",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-02",
+  "courses": [
+    {
+      "id": "kr-seoul-jungnang-01",
+      "name": "창동교 · 중랑천 왕복 5K",
+      "lat": 37.652951,
+      "lon": 127.054614,
+      "km": 5.0,
+      "shape": "outAndBack",
+      "crossings": 0,
+      "surface": "asphalt",
+      "city": "서울 도봉·노원",
+      "source": "auto",
+      "note": "창동교에서 출발하는 하천 보행로. 자전거도로와 분리되어 있고 신호등이 없다.",
+      "osmWays": [
+        1193375615,
+        1193375625
+      ],
+      "gpx": "gpx/kr-seoul-jungnang-01.gpx",
+      "photos": [
+        {
+          "file": "photos/kr-seoul-jungnang-01-2.webp",
+          "thumb": "photos/kr-seoul-jungnang-01-2-thumb.webp",
+          "caption": "보행로(초록)와 자전거도로(빨강)가 나뉘어 있다",
+          "lat": 37.65293,
+          "lon": 127.05454
+        },
+        {
+          "file": "photos/kr-seoul-jungnang-01-1.webp",
+          "thumb": "photos/kr-seoul-jungnang-01-1-thumb.webp",
+          "caption": "창동교에서 본 중랑천. 양쪽 둔치에 길이 있다",
+          "lat": 37.65288,
+          "lon": 127.05414
+        }
+      ],
+      "thumb": "photos/kr-seoul-jungnang-01-2-thumb.webp",
+      "crossingsVerified": true,
+      "start": "창동교",
+      "river": "중랑천",
+      "pathType": "footway",
+      "pedestrianVerified": true
+    },
+    {
+      "id": "kr-seoul-ui-01",
+      "name": "4.19민주묘지역 → 석계역 · 우이천 7.6K",
+      "lat": 37.64962,
+      "lon": 127.014641,
+      "endLat": 37.615178,
+      "endLon": 127.066021,
+      "km": 7.6,
+      "shape": "pointToPoint",
+      "start": "4.19민주묘지역",
+      "end": "석계역",
+      "river": "우이천",
+      "crossings": 12,
+      "crossingsVerified": true,
+      "riverFraction": 0.97,
+      "surface": "asphalt",
+      "city": "서울 강북·성북",
+      "source": "auto",
+      "note": "우이천을 따라 석계역까지. 1.9~6.3km 구간은 신호등이 없다. 자전거길과 나란히 보행로가 있으니 자전거길로 뛰지 말 것. 도착하면 석계역에서 귀가.",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "gpx": "gpx/kr-seoul-ui-01.gpx"
+    }
+  ]
+}

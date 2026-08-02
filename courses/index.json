@@ -1,0 +1,15 @@
+{
+  "updated": "2026-08-02",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "regions": [
+    {
+      "id": "kr-seoul-north",
+      "name": "서울 북부 (도봉·노원·강북)",
+      "lat": 37.654,
+      "lon": 127.052,
+      "radiusKm": 12,
+      "count": 2,
+      "file": "kr/kr-seoul-north.json"
+    }
+  ]
+}
