@@ -1,7 +1,7 @@
 {
   "region": "kr-seoul-north",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "updated": "2026-08-02",
+  "updated": "2026-08-03a",
   "courses": [
     {
       "id": "kr-seoul-jungnang-01",
@@ -65,6 +65,34 @@
       "pathType": "cycleway-adjacent",
       "pedestrianVerified": false,
       "gpx": "gpx/kr-seoul-ui-01.gpx"
+    },
+    {
+      "id": "kr-seoul-choansan-track-01",
+      "name": "초안산근린공원(트랙)",
+      "lat": 37.647983,
+      "lon": 127.041262,
+      "km": 5.0,
+      "shape": "loop",
+      "start": "초안산근린공원 축구장 트랙",
+      "crossings": 0,
+      "crossingsVerified": true,
+      "surface": "rubber",
+      "city": "서울 도봉",
+      "source": "verified",
+      "note": "우레탄 트랙 1바퀴 약 350m. 5km는 14바퀴+약 110m. 야간 조명이 있고 신호등이 없다.",
+      "pathType": "track",
+      "pedestrianVerified": true,
+      "gpx": "gpx/kr-seoul-choansan-track-01.gpx",
+      "photos": [
+        {
+          "file": "photos/kr-seoul-choansan-track-01-1.webp",
+          "thumb": "photos/kr-seoul-choansan-track-01-1-thumb.webp",
+          "caption": "초안산근린공원 축구장 둘레 우레탄 트랙",
+          "lat": 37.647983,
+          "lon": 127.041262
+        }
+      ],
+      "thumb": "photos/kr-seoul-choansan-track-01-1-thumb.webp"
     }
   ]
 }

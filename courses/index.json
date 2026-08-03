@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02b",
+  "updated": "2026-08-03a",
   "attribution": "© OpenStreetMap contributors (ODbL)",
   "regions": [
     {
@@ -8,7 +8,7 @@
       "lat": 37.654,
       "lon": 127.052,
       "radiusKm": 12,
-      "count": 2,
+      "count": 3,
       "file": "kr/kr-seoul-north.json"
     },
     {
