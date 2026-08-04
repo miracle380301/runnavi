@@ -1,7 +1,7 @@
 {
   "region": "kr-seoul-north",
   "attribution": "© OpenStreetMap contributors (ODbL)",
-  "updated": "2026-08-03a",
+  "updated": "2026-08-04",
   "courses": [
     {
       "id": "kr-seoul-jungnang-01",
@@ -13,7 +13,7 @@
       "crossings": 0,
       "surface": "asphalt",
       "city": "서울 도봉·노원",
-      "source": "auto",
+      "source": "verified",
       "note": "창동교에서 출발하는 하천 보행로. 자전거도로와 분리되어 있고 신호등이 없다.",
       "osmWays": [
         1193375615,
@@ -41,6 +41,43 @@
       "start": "창동교",
       "river": "중랑천",
       "pathType": "footway",
+      "pedestrianVerified": true
+    },
+    {
+      "id": "kr-seoul-danghyeon-01",
+      "name": "당현천 왕복 5K",
+      "lat": 37.6447622,
+      "lon": 127.0612619,
+      "km": 5.0,
+      "shape": "outAndBack",
+      "crossings": 0,
+      "surface": "asphalt",
+      "city": "서울 노원",
+      "source": "verified",
+      "note": "당현천 하류에서 상류 방향으로 달린 뒤 되돌아오는 5km 코스. 보행로와 자전거도로가 구분되어 있고 야간 조명이 있다.",
+      "osmWays": [
+        482947849,
+        482947871,
+        482947719
+      ],
+      "gpx": "gpx/kr-seoul-danghyeon-01.gpx",
+      "photos": [
+        {
+          "file": "photos/kr-seoul-danghyeon-01-1.webp",
+          "thumb": "photos/kr-seoul-danghyeon-01-1-thumb.webp",
+          "caption": "야간 조명과 색으로 구분된 당현천 보행로·자전거도로"
+        },
+        {
+          "file": "photos/kr-seoul-danghyeon-01-2.webp",
+          "thumb": "photos/kr-seoul-danghyeon-01-2-thumb.webp",
+          "caption": "나무 그늘과 조명이 이어지는 당현천 기억길"
+        }
+      ],
+      "thumb": "photos/kr-seoul-danghyeon-01-1-thumb.webp",
+      "crossingsVerified": true,
+      "start": "당현천 하류",
+      "river": "당현천",
+      "pathType": "footway-cycleway-adjacent",
       "pedestrianVerified": true
     },
     {
