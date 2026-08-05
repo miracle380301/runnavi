@@ -1,0 +1,67 @@
+{
+  "region": "jp-kyushu-okinawa",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "jp-fukuoka-ohori-01",
+      "name": "大濠公園 周回 4.9K",
+      "lat": 33.591889,
+      "lon": 130.375551,
+      "km": 4.88,
+      "shape": "loop",
+      "crossings": 1,
+      "surface": "unknown",
+      "city": "福岡",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        573127494
+      ],
+      "gpx": "gpx/jp-fukuoka-ohori-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "jp-kumamoto-shirakawa-01",
+      "name": "白川 · 大甲橋 往復 5K",
+      "lat": 32.800591,
+      "lon": 130.713201,
+      "km": 5.0,
+      "shape": "outAndBack",
+      "crossings": 6,
+      "surface": "unknown",
+      "city": "熊本",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        138288455,
+        292492846,
+        545268431,
+        547345515,
+        547345517,
+        547345518,
+        547345519,
+        551235595,
+        551235596,
+        551402562,
+        552225606,
+        1421127000,
+        1421127001
+      ],
+      "gpx": "gpx/jp-kumamoto-shirakawa-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "大甲橋",
+      "river": "白川"
+    }
+  ]
+}

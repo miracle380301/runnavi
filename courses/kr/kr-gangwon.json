@@ -1,0 +1,39 @@
+{
+  "region": "kr-gangwon",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "kr-chuncheon-gongjicheon-01",
+      "name": "공지교 · 공지천 왕복 5K",
+      "lat": 37.87262,
+      "lon": 127.714145,
+      "km": 5.0,
+      "shape": "outAndBack",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "강원 춘천",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        78291863,
+        468438397,
+        471375270,
+        521076692,
+        521076694,
+        521076701,
+        705226915,
+        766709272
+      ],
+      "gpx": "gpx/kr-chuncheon-gongjicheon-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "공지교",
+      "river": "공지천"
+    }
+  ]
+}

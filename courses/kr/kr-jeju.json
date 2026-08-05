@@ -1,0 +1,30 @@
+{
+  "region": "kr-jeju",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "kr-jeju-sports-track-01",
+      "name": "제주종합경기장 트랙 5K",
+      "lat": 33.503092,
+      "lon": 126.515185,
+      "km": 4.97,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "제주",
+      "source": "auto",
+      "note": "OSM 운동장 트랙으로 만든 후보 코스. 일반 이용 가능 시간과 행사 운영 여부를 확인하세요.",
+      "osmWays": [
+        1121638541
+      ],
+      "gpx": "gpx/kr-jeju-sports-track-01.gpx",
+      "pathType": "track",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    }
+  ]
+}

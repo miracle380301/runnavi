@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04",
+  "updated": "2026-08-04c",
   "attribution": "© OpenStreetMap contributors (ODbL)",
   "regions": [
     {
@@ -28,6 +28,123 @@
       "radiusKm": 15,
       "count": 1,
       "file": "jp/jp-osaka.json"
+    },
+    {
+      "id": "jp-kanto",
+      "name": "関東",
+      "lat": 35.68,
+      "lon": 139.65,
+      "radiusKm": 160,
+      "count": 2,
+      "file": "jp/jp-kanto.json"
+    },
+    {
+      "id": "jp-kansai",
+      "name": "関西",
+      "lat": 34.8,
+      "lon": 135.35,
+      "radiusKm": 150,
+      "count": 2,
+      "file": "jp/jp-kansai.json"
+    },
+    {
+      "id": "kr-gangwon",
+      "name": "강원",
+      "lat": 37.6,
+      "lon": 128.25,
+      "radiusKm": 150,
+      "count": 1,
+      "file": "kr/kr-gangwon.json"
+    },
+    {
+      "id": "kr-jeju",
+      "name": "제주",
+      "lat": 33.38,
+      "lon": 126.55,
+      "radiusKm": 70,
+      "count": 1,
+      "file": "kr/kr-jeju.json"
+    },
+    {
+      "id": "kr-chungcheong",
+      "name": "충청·세종·대전",
+      "lat": 36.55,
+      "lon": 127.55,
+      "radiusKm": 120,
+      "count": 3,
+      "file": "kr/kr-chungcheong.json"
+    },
+    {
+      "id": "jp-kyushu-okinawa",
+      "name": "九州・沖縄",
+      "lat": 30.5,
+      "lon": 130.5,
+      "radiusKm": 750,
+      "count": 2,
+      "file": "jp/jp-kyushu-okinawa.json"
+    },
+    {
+      "id": "kr-jeolla",
+      "name": "전라·광주",
+      "lat": 35.45,
+      "lon": 127.0,
+      "radiusKm": 150,
+      "count": 4,
+      "file": "kr/kr-jeolla.json"
+    },
+    {
+      "id": "kr-daegu-gyeongbuk",
+      "name": "대구·경북",
+      "lat": 36.0,
+      "lon": 128.75,
+      "radiusKm": 120,
+      "count": 3,
+      "file": "kr/kr-daegu-gyeongbuk.json"
+    },
+    {
+      "id": "jp-hokkaido-tohoku",
+      "name": "北海道・東北",
+      "lat": 41.0,
+      "lon": 141.0,
+      "radiusKm": 550,
+      "count": 2,
+      "file": "jp/jp-hokkaido-tohoku.json"
+    },
+    {
+      "id": "jp-chugoku-shikoku",
+      "name": "中国・四国",
+      "lat": 34.2,
+      "lon": 133.5,
+      "radiusKm": 260,
+      "count": 1,
+      "file": "jp/jp-chugoku-shikoku.json"
+    },
+    {
+      "id": "kr-gyeonggi-south",
+      "name": "경기 남부",
+      "lat": 37.38,
+      "lon": 127.08,
+      "radiusKm": 45,
+      "count": 3,
+      "file": "kr/kr-gyeonggi-south.json"
+    },
+    {
+      "id": "kr-capital-west",
+      "name": "수도권 서부",
+      "lat": 37.52,
+      "lon": 126.73,
+      "radiusKm": 45,
+      "count": 5,
+      "file": "kr/kr-capital-west.json"
+    },
+    {
+      "id": "kr-busan-ulsan-gyeongnam",
+      "name": "부산·울산·경남",
+      "lat": 35.35,
+      "lon": 129.0,
+      "radiusKm": 130,
+      "count": 7,
+      "file": "kr/kr-busan-ulsan-gyeongnam.json"
     }
   ]
 }

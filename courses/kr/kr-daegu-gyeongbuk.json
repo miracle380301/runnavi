@@ -1,0 +1,85 @@
+{
+  "region": "kr-daegu-gyeongbuk",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "kr-daegu-sincheon-01",
+      "name": "수성교 · 신천 왕복 10K",
+      "lat": 35.858304,
+      "lon": 128.606881,
+      "km": 10.0,
+      "shape": "outAndBack",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "대구",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        278753446,
+        306542056,
+        549203195,
+        866511364
+      ],
+      "gpx": "gpx/kr-daegu-sincheon-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "수성교",
+      "river": "신천"
+    },
+    {
+      "id": "kr-pohang-hyeongsangang-01",
+      "name": "포항운하관 · 형산강 왕복 6.5K",
+      "lat": 36.004225,
+      "lon": 129.341983,
+      "km": 6.54,
+      "shape": "outAndBack",
+      "crossings": 1,
+      "surface": "unknown",
+      "city": "경북 포항",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        615380166,
+        681068660,
+        1028588614
+      ],
+      "gpx": "gpx/kr-pohang-hyeongsangang-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "포항운하관",
+      "river": "형산강"
+    },
+    {
+      "id": "kr-daegu-suseong-lake-01",
+      "name": "수성못 순환 5.8K",
+      "lat": 35.828414,
+      "lon": 128.621465,
+      "km": 5.77,
+      "shape": "loop",
+      "crossings": 1,
+      "surface": "unknown",
+      "city": "대구 수성",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        334274999
+      ],
+      "gpx": "gpx/kr-daegu-suseong-lake-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    }
+  ]
+}

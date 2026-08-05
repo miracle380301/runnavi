@@ -1,0 +1,130 @@
+{
+  "region": "kr-capital-west",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "kr-goyang-ilsan-lake-01",
+      "name": "일산호수공원 순환 5K",
+      "lat": 37.652509,
+      "lon": 126.771656,
+      "km": 5.04,
+      "shape": "loop",
+      "crossings": 1,
+      "surface": "unknown",
+      "city": "경기 고양",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        469643222
+      ],
+      "gpx": "gpx/kr-goyang-ilsan-lake-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "kr-gwangmyeong-anyangcheon-01",
+      "name": "철산교 · 안양천 왕복 3.6K",
+      "lat": 37.482314,
+      "lon": 126.874339,
+      "km": 3.55,
+      "shape": "outAndBack",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "경기 광명",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        255872563,
+        255872564,
+        363541197,
+        476005454,
+        820179925,
+        820179927,
+        820179940
+      ],
+      "gpx": "gpx/kr-gwangmyeong-anyangcheon-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "철산교",
+      "river": "안양천"
+    },
+    {
+      "id": "kr-incheon-songdo-central-01",
+      "name": "송도 센트럴파크 순환 5K",
+      "lat": 37.396217,
+      "lon": 126.632293,
+      "km": 4.99,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "인천 연수",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        1267998234
+      ],
+      "gpx": "gpx/kr-incheon-songdo-central-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "kr-seoul-yeouido-park-01",
+      "name": "여의도공원 순환 5.1K",
+      "lat": 37.524516,
+      "lon": 126.921239,
+      "km": 5.11,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "서울 영등포",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        402090020
+      ],
+      "gpx": "gpx/kr-seoul-yeouido-park-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "kr-incheon-grand-park-01",
+      "name": "인천대공원 순환 5.5K",
+      "lat": 37.457837,
+      "lon": 126.758198,
+      "km": 5.51,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "인천 남동",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        468588630
+      ],
+      "gpx": "gpx/kr-incheon-grand-park-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    }
+  ]
+}

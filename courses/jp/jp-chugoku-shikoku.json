@@ -1,0 +1,30 @@
+{
+  "region": "jp-chugoku-shikoku",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "jp-takamatsu-central-01",
+      "name": "高松中央部 周回 5.2K",
+      "lat": 34.346874,
+      "lon": 134.052491,
+      "km": 5.2,
+      "shape": "loop",
+      "crossings": 5,
+      "surface": "unknown",
+      "city": "香川 高松",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        81454348
+      ],
+      "gpx": "gpx/jp-takamatsu-central-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    }
+  ]
+}

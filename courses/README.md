@@ -25,10 +25,13 @@ photos/<코스>-N.webp     코스 사진 (대표 750px / 목록용 -thumb 300px)
 | `shape` | `outAndBack` 왕복 · `pointToPoint` 편도 · `loop` 순환 |
 | `start` / `end` | 진입점 (다리 이름 또는 역 이름) |
 | `river` | 하천 이름 |
-| `crossings` | 경로 25m 안의 신호등·횡단보도 수. **실측값이지 가정이 아니다** |
+| `crossings` | 경로 25m 안의 신호등·횡단보도를 30m 단위로 묶은 수. **OSM 조회값이지 추정값이 아니다** |
 | `pathType` | `footway` 보행로 · `cycleway-adjacent` 자전거길 선에서 뽑음 |
 | `pedestrianVerified` | 옆에 보행로가 실제로 있는지 **사람이 가서 확인**했는가 |
 | `source` | `auto` 자동 생성 · `verified` 사람이 달려봄 |
+
+`source: auto`는 OSM 보행망 연결·거리·복귀 여부까지 자동 검사한 **현장 미검증 후보**다.
+누군가 실제로 달리고 노면·통행 가능 여부를 확인하기 전에는 `verified`로 바꾸지 않는다.
 
 `pathType`이 `cycleway-adjacent`인 코스는 자전거길 좌표를 쓴 것입니다.
 한국 하천은 보행로가 물리적으로 있어도 OSM에 자전거길 선 하나만 그려진 경우가 많습니다.

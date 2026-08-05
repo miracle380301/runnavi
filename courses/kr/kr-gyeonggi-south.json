@@ -1,0 +1,92 @@
+{
+  "region": "kr-gyeonggi-south",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "kr-suwon-gwanggyo-lake-01",
+      "name": "광교호수공원 순환 7.2K",
+      "lat": 37.2886,
+      "lon": 127.066206,
+      "km": 7.22,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "경기 수원",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        589609287
+      ],
+      "gpx": "gpx/kr-suwon-gwanggyo-lake-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "kr-seongnam-tancheon-01",
+      "name": "정자교 · 탄천 왕복 10K",
+      "lat": 37.366119,
+      "lon": 127.109916,
+      "km": 10.0,
+      "shape": "outAndBack",
+      "crossings": 3,
+      "surface": "unknown",
+      "city": "경기 성남",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        436088277,
+        436088278,
+        437912694,
+        437912695,
+        467157903,
+        481545294,
+        481545295,
+        604645200,
+        1110724300,
+        1229714821,
+        1229714826,
+        1288358421,
+        1288358422,
+        1288358435,
+        1288358450
+      ],
+      "gpx": "gpx/kr-seongnam-tancheon-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "정자교",
+      "river": "탄천"
+    },
+    {
+      "id": "kr-seoul-olympic-park-01",
+      "name": "올림픽공원 순환 6.8K",
+      "lat": 37.518291,
+      "lon": 127.131895,
+      "km": 6.83,
+      "shape": "loop",
+      "crossings": 1,
+      "surface": "unknown",
+      "city": "서울 송파",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        470690886
+      ],
+      "gpx": "gpx/kr-seoul-olympic-park-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    }
+  ]
+}

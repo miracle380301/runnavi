@@ -1,0 +1,79 @@
+{
+  "region": "jp-hokkaido-tohoku",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "jp-sapporo-toyohira-01",
+      "name": "豊平川 · 幌平橋 往復 10K",
+      "lat": 43.042704,
+      "lon": 141.356633,
+      "km": 10.0,
+      "shape": "outAndBack",
+      "crossings": 6,
+      "surface": "unknown",
+      "city": "北海道 札幌",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        37982494,
+        431119123,
+        431122779,
+        489341095,
+        489341096,
+        489341097,
+        904029970,
+        904029972,
+        1083143303,
+        1188254199,
+        1465749288,
+        1465749289,
+        1465749290,
+        1465749291,
+        1465749292,
+        1465749293
+      ],
+      "gpx": "gpx/jp-sapporo-toyohira-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "幌平橋",
+      "river": "豊平川"
+    },
+    {
+      "id": "jp-sendai-hirose-01",
+      "name": "広瀬川 · 宮沢橋 往復 5.2K",
+      "lat": 38.240801,
+      "lon": 140.886257,
+      "km": 5.17,
+      "shape": "outAndBack",
+      "crossings": 2,
+      "surface": "unknown",
+      "city": "宮城 仙台",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        688116677,
+        809589118,
+        809589157,
+        816839904,
+        816839929,
+        986605800,
+        1443264846,
+        1443449443
+      ],
+      "gpx": "gpx/jp-sendai-hirose-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "宮沢橋",
+      "river": "広瀬川"
+    }
+  ]
+}

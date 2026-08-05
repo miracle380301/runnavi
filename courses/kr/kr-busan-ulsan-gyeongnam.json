@@ -1,0 +1,207 @@
+{
+  "region": "kr-busan-ulsan-gyeongnam",
+  "attribution": "© OpenStreetMap contributors (ODbL)",
+  "updated": "2026-08-04c",
+  "courses": [
+    {
+      "id": "kr-busan-oncheoncheon-01",
+      "name": "동래역 · 온천천 왕복 8.2K",
+      "lat": 35.204261,
+      "lon": 129.078889,
+      "km": 8.16,
+      "shape": "outAndBack",
+      "crossings": 1,
+      "surface": "unknown",
+      "city": "부산 동래",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        627128401,
+        953415106
+      ],
+      "gpx": "gpx/kr-busan-oncheoncheon-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "동래역",
+      "river": "온천천"
+    },
+    {
+      "id": "kr-busan-suyeonggang-01",
+      "name": "수영교 · 수영강 왕복 10K",
+      "lat": 35.170504,
+      "lon": 129.125018,
+      "km": 10.0,
+      "shape": "outAndBack",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "부산 수영",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        470097573,
+        470097574,
+        470097575,
+        470097576,
+        470097581,
+        626525982,
+        626525983,
+        667277397,
+        667277398,
+        799553097,
+        799553098,
+        799553099,
+        825680590,
+        825680591,
+        837733689
+      ],
+      "gpx": "gpx/kr-busan-suyeonggang-01.gpx",
+      "pathType": "cycleway-adjacent",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "수영교",
+      "river": "수영강"
+    },
+    {
+      "id": "kr-ulsan-taehwagang-01",
+      "name": "태화강 국가정원 · 태화강 왕복 10K",
+      "lat": 35.548344,
+      "lon": 129.293004,
+      "km": 10.0,
+      "shape": "outAndBack",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "울산",
+      "source": "auto",
+      "note": "OSM 수변 보행망으로 만든 후보 코스. 보행로 연결과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        285603390,
+        285603499,
+        285603920,
+        285604187,
+        472077913,
+        472077914,
+        472077915,
+        472077916,
+        699304319,
+        836365983,
+        838220157,
+        886645694,
+        1188433496,
+        1394083025,
+        1394083026,
+        1414013085,
+        1414013086,
+        1446423976,
+        1446423977
+      ],
+      "gpx": "gpx/kr-ulsan-taehwagang-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      },
+      "start": "태화강 국가정원",
+      "river": "태화강"
+    },
+    {
+      "id": "kr-changwon-yongji-lake-01",
+      "name": "용지호수공원 순환 4.8K",
+      "lat": 35.234007,
+      "lon": 128.681123,
+      "km": 4.77,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "경남 창원",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        471687264
+      ],
+      "gpx": "gpx/kr-changwon-yongji-lake-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "kr-gimhae-yeonji-park-01",
+      "name": "연지공원 순환 4.9K",
+      "lat": 35.245198,
+      "lon": 128.87069,
+      "km": 4.89,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "경남 김해",
+      "source": "auto",
+      "note": "OSM에 연결된 닫힌 순환로로 만든 공원 후보 코스. 출입시간과 노면은 현장 확인 전입니다.",
+      "osmWays": [
+        471803132
+      ],
+      "gpx": "gpx/kr-gimhae-yeonji-park-01.gpx",
+      "pathType": "footway",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "kr-busan-asiad-track-01",
+      "name": "부산아시아드 트랙 4.9K",
+      "lat": 35.190114,
+      "lon": 129.055043,
+      "km": 4.92,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "부산 연제",
+      "source": "auto",
+      "note": "OSM 운동장 트랙으로 만든 후보 코스. 일반 이용 가능 시간과 행사 운영 여부를 확인하세요.",
+      "osmWays": [
+        506012322
+      ],
+      "gpx": "gpx/kr-busan-asiad-track-01.gpx",
+      "pathType": "track",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    },
+    {
+      "id": "kr-changwon-sports-track-01",
+      "name": "창원종합운동장 트랙 5K",
+      "lat": 35.23291,
+      "lon": 128.66253,
+      "km": 5.0,
+      "shape": "loop",
+      "crossings": 0,
+      "surface": "unknown",
+      "city": "경남 창원",
+      "source": "auto",
+      "note": "OSM 운동장 트랙으로 만든 후보 코스. 일반 이용 가능 시간과 행사 운영 여부를 확인하세요.",
+      "osmWays": [
+        1304351519
+      ],
+      "gpx": "gpx/kr-changwon-sports-track-01.gpx",
+      "pathType": "track",
+      "pedestrianVerified": false,
+      "provenance": {
+        "set": "openstreetmap",
+        "attribution": "© OpenStreetMap contributors (ODbL)"
+      }
+    }
+  ]
+}
