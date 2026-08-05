@@ -1,11 +1,188 @@
-<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>RunNavi 개인정보처리방침</title><style>body{font-family:-apple-system,sans-serif;max-width:680px;margin:40px auto;padding:0 20px;line-height:1.7;color:#222}h1{font-size:1.5em}h2{font-size:1.15em;margin-top:1.6em}hr{margin:2em 0;border:none;border-top:1px solid #ddd}</style></head><body>
-<h1>RunNavi 개인정보처리방침</h1><p>시행일: 2026년 7월 12일</p>
-<h2>1. 수집하는 정보</h2><p>RunNavi는 계정이 없으며, 서버에 개인정보를 저장하지 않습니다. 러닝 기록·사진·메모·GPX 코스는 <b>사용자 기기에만</b> 저장됩니다.</p>
-<h2>2. 위치 정보</h2><p>위치는 러닝 중 경로 안내와 기록을 위해 기기에서 처리됩니다. 코스 생성 시 좌표가 외부 경로·고도 계산 API(Geoapify, OpenTopoData, OpenStreetMap Overpass)로 일시 전송되지만, 계산 후 즉시 폐기되며 저장·추적되지 않습니다.</p>
-<h2>3. 제3자 제공</h2><p>개인정보를 제3자에게 제공하지 않습니다. 지도 데이터는 OpenStreetMap(© OpenStreetMap contributors, ODbL)을 사용하며, 경로 계산은 Geoapify를 사용합니다.</p>
-<h2>4. 데이터 삭제</h2><p>앱을 삭제하면 모든 데이터가 함께 삭제됩니다.</p>
-<h2>5. 문의</h2><p>miracle380301@gmail.com</p>
-<hr>
-<h1>RunNavi Privacy Policy</h1><p>Effective: July 12, 2026</p>
-<p>RunNavi has no accounts and stores no personal data on servers. Runs, photos, memos and GPX courses are stored <b>on your device only</b>. Location is processed on-device for guidance; coordinates sent to external routing/elevation APIs (Geoapify, OpenTopoData, OpenStreetMap Overpass) for course generation are discarded immediately after computation and never stored. No data is shared with third parties. Map data © OpenStreetMap contributors. Deleting the app deletes all data. Contact: miracle380301@gmail.com</p>
-</body></html>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RunNavi 개인정보처리방침</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+      line-height: 1.7;
+      color: CanvasText;
+      background: Canvas;
+    }
+    h1 { font-size: 1.65rem; line-height: 1.3; margin: 0 0 8px; }
+    h2 { font-size: 1.12rem; margin: 1.8rem 0 0.45rem; }
+    p, li { font-size: 0.96rem; }
+    ul { padding-left: 1.35rem; }
+    .effective { color: GrayText; margin-top: 0; }
+    .language-nav { margin: 0 0 28px; }
+    .language-nav a { margin-right: 12px; }
+    .notice {
+      padding: 12px 14px;
+      border: 1px solid color-mix(in srgb, CanvasText 18%, transparent);
+      border-radius: 8px;
+      background: color-mix(in srgb, CanvasText 5%, Canvas);
+    }
+    section + section { margin-top: 56px; padding-top: 40px; border-top: 1px solid color-mix(in srgb, CanvasText 18%, transparent); }
+    a { color: LinkText; }
+  </style>
+</head>
+<body>
+  <nav class="language-nav" aria-label="Language">
+    <a href="#ko">한국어</a><a href="#en">English</a><a href="#ja">日本語</a>
+  </nav>
+
+  <section id="ko" lang="ko">
+    <h1>RunNavi 개인정보처리방침</h1>
+    <p class="effective">시행일: 2026년 8월 5일</p>
+
+    <p class="notice"><strong>요약:</strong> 일반 러닝 기록은 기기에만 저장됩니다. 사용자가 완주 기록에서 <strong>코스 제안 보내기</strong>를 선택하고 별도로 동의한 경우에만, 사생활 보호를 위해 시작·끝 구간을 줄인 경로와 사용자가 선택한 정보가 RunNavi의 비공개 검토 서버로 전송됩니다.</p>
+
+    <h2>1. 적용 범위와 계정</h2>
+    <p>RunNavi는 회원 계정을 만들거나 이름, 이메일 주소, 전화번호를 가입 정보로 수집하지 않습니다. 이 방침은 RunNavi 앱, 추천 코스 제공 페이지 및 사용자가 선택적으로 이용하는 코스 제안 검토 기능에 적용됩니다.</p>
+
+    <h2>2. 기기에만 저장되는 정보</h2>
+    <ul>
+      <li>러닝 날짜, 시간, 거리, 페이스, GPS 궤적, 스플릿 및 음성 안내 기록</li>
+      <li>사용자가 기록에 추가한 제목, 메모 및 사진</li>
+      <li>저장한 GPX 코스, 앱 설정, 무료 이용 횟수 및 구매 권한의 기기 내 캐시</li>
+    </ul>
+    <p>이 정보는 사용자가 코스 제안을 보내지 않는 한 RunNavi 운영 서버로 전송되지 않습니다. 앱에서 기록을 삭제하거나 앱을 삭제하면 앱 컨테이너의 정보가 삭제됩니다. 다만 사용자가 사진 앱에 저장한 공유 이미지·리캡 영상이나 별도로 내보낸 백업 파일은 해당 앱이나 저장 위치에서 직접 삭제해야 합니다. 구독 결제와 결제 정보는 Apple이 처리하며 RunNavi는 유효한 구매 권한 여부만 확인합니다.</p>
+
+    <h2>3. 외부 서비스를 이용하는 기능</h2>
+    <p>지도·장소 검색·코스 생성·고도 조회·추천 코스 다운로드 기능을 사용할 때 필요한 좌표, 검색 영역 또는 요청 정보가 다음 서비스로 전송될 수 있습니다. RunNavi는 이 요청 정보를 자체 서버에 저장하지 않지만, 각 제공자는 자신의 개인정보처리방침에 따라 IP 주소와 요청 로그를 처리할 수 있습니다.</p>
+    <ul>
+      <li>Apple MapKit: 지도 표시, 장소 검색 및 도보 경로 계산</li>
+      <li>Geoapify: 러닝 경로 계산</li>
+      <li>OpenTopoData: 고도 조회</li>
+      <li>OpenStreetMap Overpass 공개 서버: 보행로, 하천, 자전거도로 등 주변 도로망 조회</li>
+      <li>GitHub Pages: 추천 코스 목록, GPX 및 코스 사진 배포</li>
+    </ul>
+
+    <h2>4. 선택적 코스 제안 전송</h2>
+    <p>사용자가 완주 기록에서 코스 제안 보내기를 선택하고 전송 동의를 켠 경우에만 다음 정보가 HTTPS로 전송됩니다.</p>
+    <ul>
+      <li>시작과 끝에서 각각 최대 300m 또는 전체 거리의 15%를 줄인 GPS 경로</li>
+      <li>코스 이름, 설명, 거리</li>
+      <li>사용자가 직접 선택한 사진 최대 2장</li>
+      <li>줄인 경로로 앱이 만든 경로 미리보기 이미지</li>
+      <li>접수번호, 동의 버전, 앱 버전, 플랫폼, 파일 크기, 접수·검토 상태와 처리 시각</li>
+    </ul>
+    <p>줄인 경로에도 정밀한 위치가 포함될 수 있으며, 사진에는 사람·차량 번호·주거지 등 개인을 알아볼 수 있는 내용이 보일 수 있습니다. 사용자는 전송 전에 미리보기와 선택 사진을 확인해야 하며, 동의하지 않으면 제안 기능을 사용하지 않아도 앱의 다른 기능을 계속 이용할 수 있습니다.</p>
+    <p>전송된 제안은 Cloudflare의 Worker, D1 및 R2 서비스를 이용하는 RunNavi 비공개 검토함에 저장됩니다. RunNavi 운영자가 러닝 적합성, 안전성, 사생활 및 사진 내용을 검토하고 필요하면 경로·설명·사진을 편집합니다. 승인된 정보의 일부 또는 전부는 RunNavi 추천 코스로 공개될 수 있으며, 승인 전에는 다른 사용자에게 공개되지 않습니다.</p>
+
+    <h2>5. 보관과 삭제</h2>
+    <p>기기에 저장된 기록은 사용자가 직접 삭제할 때까지 보관됩니다. 코스 제안의 비공개 제출 원본과 검토 정보는 검토, 중복 제출 방지, 승인 코스 관리 및 문의 대응에 필요한 동안 또는 삭제 요청을 처리할 때까지 보관됩니다. 승인된 경로·설명·사진은 추천 코스로 제공되는 동안 공개 저장소에 보관될 수 있습니다.</p>
+    <p>코스 제안을 삭제하거나 공개 승인을 철회하려면 접수번호와 함께 <a href="mailto:miracle380301@gmail.com">miracle380301@gmail.com</a>으로 요청해 주세요. 계정이나 이메일 주소를 제출받지 않으므로 접수번호가 없으면 해당 제안을 식별하기 어려울 수 있습니다. 관계 법령상 보존 의무가 있는 경우를 제외하고, 확인된 요청의 비공개 제출 데이터와 공개 코스는 삭제 또는 비공개 처리합니다.</p>
+
+    <h2>6. 처리 위탁과 국외 처리</h2>
+    <p>코스 제안의 전송과 보관을 위해 Cloudflare, Inc.의 글로벌 인프라를 사용합니다. 전송 시점에 위 4항의 정보가 암호화된 통신으로 처리되며, 검토 및 보관 목적이 끝나거나 삭제 요청이 처리될 때까지 보관될 수 있습니다. 사용자는 전송 동의를 하지 않음으로써 이 처리를 거부할 수 있으며, 이 경우 코스 제안만 이용할 수 없습니다.</p>
+
+    <h2>7. 추적과 광고</h2>
+    <p>RunNavi는 제출된 위치·사진·기록을 광고 또는 사용자 추적에 사용하거나 판매하지 않습니다.</p>
+
+    <h2>8. 문의와 방침 변경</h2>
+    <p>개인정보 관련 문의, 열람 또는 삭제 요청: <a href="mailto:miracle380301@gmail.com">miracle380301@gmail.com</a></p>
+    <p>수집 항목이나 처리 목적이 달라지면 이 페이지의 시행일과 내용을 갱신합니다.</p>
+  </section>
+
+  <section id="en" lang="en">
+    <h1>RunNavi Privacy Policy</h1>
+    <p class="effective">Effective: August 5, 2026</p>
+
+    <p class="notice"><strong>Summary:</strong> Regular run records stay on your device. Data is sent to RunNavi's private review service only when you choose <strong>Submit Course Proposal</strong> from a completed run and give separate consent. The submitted route has its beginning and end shortened for privacy.</p>
+
+    <h2>1. Scope and accounts</h2>
+    <p>RunNavi does not create member accounts or collect your name, email address, or phone number as registration data. This policy applies to the RunNavi app, recommended-course delivery, and the optional course proposal review feature.</p>
+
+    <h2>2. Data stored only on your device</h2>
+    <ul>
+      <li>Run date, time, distance, pace, GPS track, splits, and voice-guidance history</li>
+      <li>Titles, notes, and photos you add to a run</li>
+      <li>Saved GPX courses, app settings, free-use counters, and a local purchase-entitlement cache</li>
+    </ul>
+    <p>This data is not sent to a RunNavi-operated server unless you submit a course proposal. Deleting a record or the app removes data from the app container. Images or recap videos saved to Photos and backup files exported elsewhere must be deleted from those locations separately. Apple processes subscriptions and payment information; RunNavi checks only whether an entitlement is valid.</p>
+
+    <h2>3. Features that use external services</h2>
+    <p>When you use maps, place search, course generation, elevation lookup, or recommended-course downloads, required coordinates, a search area, or request information may be sent to Apple MapKit, Geoapify, OpenTopoData, public OpenStreetMap Overpass servers, and GitHub Pages. RunNavi does not retain these requests on its own server, but each provider may process IP addresses and request logs under its own privacy policy.</p>
+
+    <h2>4. Optional course proposal submission</h2>
+    <p>Only after you choose to submit a proposal and enable the consent control, RunNavi sends the following over HTTPS:</p>
+    <ul>
+      <li>Your GPS track with up to 300 meters, or 15% of the total distance, removed from both the beginning and end</li>
+      <li>Course name, description, and distance</li>
+      <li>Up to two photos that you explicitly select</li>
+      <li>A route preview image generated by the app from the shortened route</li>
+      <li>Receipt number, consent version, app version, platform, file size, submission and review status, and processing timestamps</li>
+    </ul>
+    <p>The shortened route can still contain precise location data. Photos may visibly contain people, license plates, homes, or other identifying details. Review the preview and selected photos before sending. Declining consent affects only proposal submission; all other app features remain available.</p>
+    <p>Proposals are stored in RunNavi's private review queue using Cloudflare Workers, D1, and R2. RunNavi reviews running suitability, safety, privacy, and photo content and may edit the route, description, or photos. Approved information may be published as a RunNavi recommended course. Nothing is shown to other users before approval.</p>
+
+    <h2>5. Retention and deletion</h2>
+    <p>On-device records remain until you delete them. Private proposal files and review information are retained while needed for review, duplicate prevention, approved-course management, and support, or until a verified deletion request is processed. Approved routes, descriptions, and photos may remain in the public course catalog while the course is offered.</p>
+    <p>To delete a proposal or withdraw publication approval, email <a href="mailto:miracle380301@gmail.com">miracle380301@gmail.com</a> with your receipt number. Because no account or contact address is collected with a proposal, identifying it without the receipt number may be difficult. Unless retention is legally required, verified private submission data and published course content will be deleted or unpublished.</p>
+
+    <h2>6. Service providers and international processing</h2>
+    <p>RunNavi uses Cloudflare, Inc.'s global infrastructure to transfer and store course proposals. The data listed in Section 4 is processed over encrypted connections and may be retained until the review and storage purposes end or a deletion request is processed. You can refuse this processing by not consenting to submission; only the proposal feature will be unavailable.</p>
+
+    <h2>7. Tracking and advertising</h2>
+    <p>RunNavi does not sell submitted locations, photos, or run data or use them for advertising or cross-app tracking.</p>
+
+    <h2>8. Contact and changes</h2>
+    <p>Privacy questions and access or deletion requests: <a href="mailto:miracle380301@gmail.com">miracle380301@gmail.com</a></p>
+    <p>If collected data or processing purposes change, RunNavi will update this page and its effective date.</p>
+  </section>
+
+  <section id="ja" lang="ja">
+    <h1>RunNavi プライバシーポリシー</h1>
+    <p class="effective">施行日：2026年8月5日</p>
+
+    <p class="notice"><strong>概要：</strong>通常のランニング記録は端末内にのみ保存されます。完了した記録から<strong>コースを提案</strong>を選び、別途同意した場合に限り、開始・終了区間を短縮したルートと選択した情報がRunNaviの非公開審査サービスへ送信されます。</p>
+
+    <h2>1. 適用範囲とアカウント</h2>
+    <p>RunNaviは会員アカウントを作成せず、登録情報として氏名、メールアドレス、電話番号を収集しません。本ポリシーはRunNaviアプリ、おすすめコース配信、および任意のコース提案審査機能に適用されます。</p>
+
+    <h2>2. 端末内にのみ保存される情報</h2>
+    <ul>
+      <li>日付、時間、距離、ペース、GPS軌跡、スプリット、音声案内履歴</li>
+      <li>記録に追加したタイトル、メモ、写真</li>
+      <li>保存したGPXコース、アプリ設定、無料利用回数、購入権限の端末内キャッシュ</li>
+    </ul>
+    <p>コース提案を送信しない限り、これらの情報はRunNaviの運営サーバーへ送信されません。記録またはアプリを削除すると、アプリコンテナ内の情報が削除されます。写真アプリに保存した画像・動画や別途書き出したバックアップは、保存先で削除してください。購読と決済情報はAppleが処理し、RunNaviは権限が有効かどうかのみ確認します。</p>
+
+    <h2>3. 外部サービスを利用する機能</h2>
+    <p>地図、場所検索、コース生成、標高取得、おすすめコースのダウンロードを利用すると、必要な座標、検索範囲またはリクエスト情報がApple MapKit、Geoapify、OpenTopoData、OpenStreetMap Overpass公開サーバー、GitHub Pagesへ送信される場合があります。RunNaviはこれらのリクエストを自社サーバーに保存しませんが、各提供者はそれぞれのポリシーに基づきIPアドレスやリクエストログを処理する場合があります。</p>
+
+    <h2>4. 任意のコース提案送信</h2>
+    <p>提案送信を選択し同意を有効にした場合に限り、次の情報をHTTPSで送信します。</p>
+    <ul>
+      <li>開始・終了からそれぞれ最大300m、または全距離の15%を除いたGPS軌跡</li>
+      <li>コース名、説明、距離</li>
+      <li>利用者が明示的に選択した写真（最大2枚）</li>
+      <li>短縮したルートからアプリが生成するルートプレビュー画像</li>
+      <li>受付番号、同意バージョン、アプリバージョン、プラットフォーム、ファイルサイズ、受付・審査状態および処理時刻</li>
+    </ul>
+    <p>短縮後のルートにも正確な位置情報が含まれる場合があります。写真には人物、車両番号、住居など個人を特定できる内容が写る場合があります。送信前にプレビューと選択写真を確認してください。同意しなくても、提案以外の機能は引き続き利用できます。</p>
+    <p>提案はCloudflare Workers、D1、R2を利用するRunNaviの非公開審査キューに保存されます。RunNaviは走行適性、安全性、プライバシー、写真内容を確認し、必要に応じてルート・説明・写真を編集します。承認された情報はRunNaviのおすすめコースとして公開される場合があります。承認前に他の利用者へ公開されることはありません。</p>
+
+    <h2>5. 保存期間と削除</h2>
+    <p>端末内の記録は利用者が削除するまで保存されます。非公開の提案ファイルと審査情報は、審査、重複防止、承認コース管理、問い合わせ対応に必要な期間、または確認済みの削除依頼が処理されるまで保存されます。承認されたルート・説明・写真は、おすすめコースとして提供される間、公開カタログに保存される場合があります。</p>
+    <p>提案の削除または公開承認の撤回は、受付番号を添えて<a href="mailto:miracle380301@gmail.com">miracle380301@gmail.com</a>へご連絡ください。提案時にアカウントや連絡先を収集しないため、受付番号がない場合は特定が困難なことがあります。法令上の保存義務がある場合を除き、確認済みの非公開提出データと公開コースを削除または非公開にします。</p>
+
+    <h2>6. 委託先と国外処理</h2>
+    <p>コース提案の転送・保存にはCloudflare, Inc.のグローバルインフラを使用します。第4項の情報は暗号化通信で処理され、審査・保存目的が終了するか削除依頼が処理されるまで保存される場合があります。同意しないことでこの処理を拒否でき、その場合は提案機能のみ利用できません。</p>
+
+    <h2>7. 追跡と広告</h2>
+    <p>RunNaviは送信された位置、写真、ランニング記録を販売せず、広告やアプリ横断トラッキングに使用しません。</p>
+
+    <h2>8. お問い合わせと変更</h2>
+    <p>プライバシーに関する質問、開示・削除依頼：<a href="mailto:miracle380301@gmail.com">miracle380301@gmail.com</a></p>
+    <p>収集項目または処理目的が変わる場合、本ページと施行日を更新します。</p>
+  </section>
+</body>
+</html>
